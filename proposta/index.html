@@ -68,6 +68,8 @@ h3{font:700 1.375rem/1.25 var(--body)}
 .items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px}
 .items li{padding-block:13px;border-bottom:1px solid var(--line);line-height:1.4}
 
+.price .wrap{display:grid;gap:8px}
+.value{font:500 clamp(3.25rem,8vw,6rem)/1.05 var(--display);color:var(--wine);font-variant-numeric:lining-nums}
 .promise{background:var(--wine);color:#fff}
 .promise .label{color:var(--blush)}
 .promise .big{font:500 clamp(2.5rem,6vw,4.75rem)/1.08 var(--display);max-width:17ch;margin-block:14px 22px;text-wrap:balance}
@@ -145,6 +147,11 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:4px 28px;justify-content:space-betw
     <li>Suas referências de tom, cor e estilo</li>
     <li>As fotos e os materiais que temos disponíveis</li>
   </ul>
+</div></section>
+
+<section class="price sec"><div class="wrap">
+  <span class="label">Investimento</span>
+  <p class="value">R$ 3.500</p>
 </div></section>
 
 <section class="promise sec"><div class="wrap stack">
